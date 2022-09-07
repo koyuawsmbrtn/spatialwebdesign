@@ -40,6 +40,11 @@ a:hover:not(.social) {
     margin-top: -90px;
 }
 
+.intro {
+    background: $accent;
+    color: $background;
+}
+
 svg {
     height: 24px;
     margin: 20px;
