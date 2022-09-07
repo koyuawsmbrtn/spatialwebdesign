@@ -1,0 +1,14 @@
+@import "variables";
+
+.button {
+  border: $dark-accent 1px solid;
+  color: $foreground;
+  padding: 8px;
+  border-radius: $border-radius;
+
+  &:hover {
+    background: $accent;
+    color: $background;
+    text-decoration: none;
+  }
+}

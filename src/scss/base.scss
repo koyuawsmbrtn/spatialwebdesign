@@ -4,31 +4,43 @@
 body {
     background: $background;
     color: $foreground;
-    font-family: Goethe;
-    font-size: 14pt;
+    font-family: Goethe, sans-serif;
+    font-size: 16pt;
     overflow: hidden;
 }
 
 #logo {
-    color: $accent;
+    color: $pink;
     font-size: 100pt;
     padding: 20px;
     line-height: 1;
 }
 
+#lower {
+    width: fit-content;
+    text-align: center;
+}
+
 a {
     text-decoration: none;
-    color: $accent;
+    color: $dark-accent;
+    transition-property: background-color;
+    transition-duration: .25s;
+    padding: .5rem;
+    border-radius: $border-radius;
+
+    &:hover {
+        color: $accent;
+    }
 }
 
 a:hover:not(.social) {
-    background: $accent;
-    color: $background;
+    text-decoration: underline;
 }
 
 #contact {
-    font-size: 36pt;
-    margin: 20px;
+    margin-left: 20px;
+    font-size: 60pt;
 }
 
 #right {
@@ -41,19 +53,26 @@ a:hover:not(.social) {
 }
 
 .intro {
-    background: $accent;
+    margin: 1rem;
+    padding: .25rem;
+    background: $secondary;
     color: $background;
 }
 
 svg {
     height: 24px;
-    margin: 20px;
-    color: $accent;
 }
 
-#imprint {
+#footer {
     display: block;
     position: absolute;
     bottom: 20px;
-    left: 30px;
+    left: 20px;
+    width: calc(50% - 20px * 2);
+
+    & #socials {
+        float: right;
+        display: inline-block;
+        vertical-align: middle;
+    }
 }
