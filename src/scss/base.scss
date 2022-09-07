@@ -5,7 +5,6 @@ body {
     background: $background;
     color: $foreground;
     font-family: Goethe;
-    overflow: hidden;
     font-size: 14pt;
 }
 
@@ -56,5 +55,4 @@ svg {
     position: absolute;
     bottom: 20px;
     left: 30px;
-    font-size: 11pt;
 }
