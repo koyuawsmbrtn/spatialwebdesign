@@ -1,7 +1,4 @@
 @media(min-width:800px) {
-    body {
-        overflow: hidden;
-    }
     #right {
         width: 50%;
     }
@@ -12,11 +9,13 @@
 }
 
 @media(max-width:800px) {
-    #imprint {
-        position: relative;
-        margin-top: 30px;
-    }
     #right {
         display: none;
+    }
+    #logo {
+        font-size: 48pt;
+    }
+    #content {
+        text-align: center;
     }
 }
