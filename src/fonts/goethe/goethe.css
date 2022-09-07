@@ -1,0 +1,15 @@
+/* goethe */
+@font-face {
+	font-family: Goethe;
+	font-style: normal;
+	font-weight: 500;
+	src: local("Goethe"), url(goethe.woff2) format("woff2");
+}
+/* goethe-bold */
+@font-face {
+	font-family: Goethe;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Goethe Bold"), local("GoetheBold"), url(goethe-bold.woff2) format("woff2");
+}
+

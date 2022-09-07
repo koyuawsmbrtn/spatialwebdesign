@@ -1,0 +1,55 @@
+@import "variables";
+@import "../fonts/goethe/goethe.css";
+
+body {
+    background: $background;
+    color: $foreground;
+    font-family: Goethe;
+    overflow: hidden;
+    font-size: 14pt;
+}
+
+#logo {
+    color: $accent;
+    font-size: 100pt;
+    padding: 20px;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    color: $accent;
+}
+
+a:hover:not(.social) {
+    background: $accent;
+    color: $background;
+}
+
+#contact {
+    font-size: 36pt;
+    margin: 20px;
+}
+
+#right {
+    float: right;
+    height: 100vh;
+    background: url("/banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    margin-top: -90px;
+}
+
+svg {
+    height: 24px;
+    margin: 20px;
+    color: $accent;
+}
+
+#imprint {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    font-size: 11pt;
+}
