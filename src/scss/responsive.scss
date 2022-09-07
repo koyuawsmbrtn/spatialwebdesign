@@ -6,6 +6,9 @@
         width: 50%;
         padding: 20px;
     }
+    #content > .intro {
+        display: none;
+    }
 }
 
 @media(max-width:800px) {
@@ -17,5 +20,24 @@
     }
     #content {
         text-align: center;
+
+        & > .intro {
+            padding-bottom: 0;
+            margin-bottom: 0;
+
+            &:last-child {
+                margin-top: 0;
+            }
+        }
+    }
+    #lower {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footer {
+        width: calc(100% - 20px * 2);
+        #socials {
+            right: 0px;
+        }
     }
 }
