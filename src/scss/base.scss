@@ -27,7 +27,6 @@ a {
     transition-property: background-color;
     transition-duration: .25s;
     padding: .5rem;
-    border-radius: $border-radius;
 
     &:hover {
         color: $accent;
