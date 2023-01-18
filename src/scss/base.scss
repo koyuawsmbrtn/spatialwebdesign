@@ -3,7 +3,7 @@
 
 html,
 body {
-    cursor: url(/cursor.png) 0 0, auto !important;
+    cursor: url(/cursor.png) 0 0, auto;
 }
 
 body {
@@ -12,6 +12,12 @@ body {
     font-family: Goethe, serif;
     font-size: 16pt;
     overflow: hidden;
+}
+
+
+::selection {
+    background: $pink;
+    color: $background;
 }
 
 #logo {
@@ -32,7 +38,7 @@ a {
     transition-property: background-color;
     transition-duration: .25s;
     padding: .5rem;
-    cursor: url(/cursor2.png) 8 8, auto !important;
+    cursor: url(/cursor2.png) 8 8, auto;
 
     &:hover {
         color: $accent;
