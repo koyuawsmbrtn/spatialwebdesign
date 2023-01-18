@@ -1,6 +1,11 @@
 @import "variables";
 @import "../fonts/goethe/goethe.css";
 
+html,
+body {
+    cursor: url(/cursor.png) 0 0, auto !important;
+}
+
 body {
     background: $background;
     color: $foreground;
@@ -27,6 +32,7 @@ a {
     transition-property: background-color;
     transition-duration: .25s;
     padding: .5rem;
+    cursor: url(/cursor2.png) 8 8, auto !important;
 
     &:hover {
         color: $accent;
